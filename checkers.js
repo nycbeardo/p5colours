@@ -26,7 +26,7 @@ class Square {
 class SquareGrid{
     constructor(){
       this.squares = []
-      this.gridSize = 8
+      this.gridSize = 32
       this.squareSize = 16
       this.spacing = 18
       this.positionX = width/2 - ((this.gridSize-1) * (this.spacing))/2
